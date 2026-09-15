@@ -153,6 +153,17 @@ def _retrieval_query(history, content, skill):
     return previous[:1500] + '\n' + topic if previous and reference else topic
 
 
+def _audit_against_sources(llm, original_llm, text, chunks):
+    """Runs the entailment/citation audit and returns (trimmed text, warnings).
+    Removed sentences aren't reported individually here — audit_evidence already
+    folds that into the returned warnings list."""
+    context = {i: f'Episode metadata: {c.guest} — {c.title}\n\n{c.text}' for i, c in enumerate(chunks, 1)}
+    text, audit_issues, _removed = audit_evidence(llm, text, context)
+    if original_llm is not llm:
+        original_llm._used_client.set(llm._used_client.get())
+    return clean_document(text), audit_issues
+
+
 def _answer_from_general_knowledge(llm, history, user_content, start, on_event=None) -> AgentResult:
     """No relevant transcript excerpts: answer plainly instead of refusing outright.
     Used only for the grounded_qa skill; content-generation skills stay evidence-only."""
@@ -287,6 +298,13 @@ def handle_message(
                 text = llm.generate(system=system, messages=prompt_messages + [correction])
     except LLMUnavailableError as e:
         logger.error("LLM generation failed", extra={"fields": {"error": str(e)}})
+        if skill == 'grounded_qa' and settings.ALLOW_GENERAL_KNOWLEDGE:
+            # The grounded attempt timed out or failed (a real risk with a
+            # large context on CPU). Retry with a much smaller, context-free
+            # prompt instead of surfacing a raw connection/timeout error.
+            if on_event:
+                on_event({'type': 'status', 'text': 'Grounded answer timed out — retrying from general knowledge…'})
+            return _answer_from_general_knowledge(llm, history, user_content, start, on_event)
         text = (
             "I couldn't reach the language model to answer this. "
             f"({e}) Your question and the retrieved sources were still logged — "
@@ -299,6 +317,17 @@ def handle_message(
 
     text = clean_document(text)
     warnings = []
+
+    # Post-generation grounding pipeline. A generated answer only stays
+    # `grounded` (and eligible to become an artifact) if it survives all of
+    # these, run in order:
+    #   1. self-refusal   — the model itself says the evidence doesn't cover this
+    #   2. source audit   — citation/quote/percentage checks + entailment audit
+    #   3. essay length   — ship_30_for_30 only
+    # Any failure downgrades to ungrounded. Steps 1 and 4 give grounded_qa a
+    # chance to retry from general knowledge instead of just reporting the gap.
+
+    # 1. Self-refusal.
     if grounded and _is_evidence_refusal(text):
         grounded = False
         chunks = []
@@ -307,27 +336,30 @@ def handle_message(
         if skill == 'grounded_qa' and settings.ALLOW_GENERAL_KNOWLEDGE:
             # Retrieval's similarity threshold passed some chunk, but the model
             # itself recognized none of it actually answers the question.
-            # Answer from general knowledge instead of just reporting the gap.
             if on_event:
                 on_event({'type': 'status', 'text': 'No relevant transcript evidence — answering from general knowledge…'})
             return _answer_from_general_knowledge(llm, history, user_content, start, on_event)
+
+    # 2. Source audit (essays audit each section already, during generation).
     if grounded:
         if skill != 'ship_30_for_30' and not _reference_issues(text, context_block, len(chunks)):
             if on_event:
                 on_event({'type': 'status', 'text': 'Checking the draft against its sources…'})
-            text, audit_issues, removed = audit_evidence(llm, text, {i: f'Episode metadata: {c.guest} — {c.title}\n\n{c.text}' for i, c in enumerate(chunks, 1)})
+            text, audit_issues = _audit_against_sources(llm, original_llm, text, chunks)
             warnings.extend(audit_issues)
-            text = clean_document(text)
-            if original_llm is not llm:
-                original_llm._used_client.set(llm._used_client.get())
         warnings.extend(section_issues)
         warnings.extend(_reference_issues(text, context_block, len(chunks)))
         if warnings:
             grounded = False
+
+        # 3. Essay length.
         if skill == 'ship_30_for_30' and not 1100 <= len(text.split()) <= 1400:
             warnings.append(f'Essay length is {len(text.split())} words; the target is approximately 1,250. Request a revision if needed.')
         if warnings:
             logger.warning('answer quality warning', extra={'fields': {'skill': skill, 'warnings': warnings}})
+
+    # 4. An ungrounded answer never ships raw model text — replace it with a
+    # generic message (grounded_qa already had its chance to retry in step 1).
     if warnings and not grounded:
         text = ('I could not verify a reliable answer from the retrieved transcripts. '
                 'Please make the question more specific or select a more capable model.')

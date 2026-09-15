@@ -1,7 +1,7 @@
 import pytest
 from app import agent
 from app.config import Settings
-from app.llm.base import LLMMessage
+from app.llm.base import LLMMessage, LLMUnavailableError
 from app.skills import route_skill, html_document
 
 
@@ -99,6 +99,69 @@ def test_empty_retrieval_answers_from_general_knowledge_for_plain_questions(monk
     assert result.text == "Hi! I'm the Lenny Growth Assistant."
     assert stub_llm.last_system == agent.GENERAL_SYSTEM_PROMPT
     assert any('general knowledge' in w for w in result.warnings)
+
+
+def test_generation_timeout_falls_back_to_general_knowledge(monkeypatch):
+    """A grounded_qa attempt can time out on a large CPU prompt even when
+    retrieval found a passing-similarity chunk. Rather than surfacing a raw
+    connection error, retry once with a small, context-free prompt."""
+    class Chunk:
+        guest, title, text = 'Guest', 'Title', 'evidence text'
+        publish_date, start_timestamp = '', '00:00:00'
+        youtube_url, deep_link, source_url = '', '', ''
+        similarity = 0.5
+
+    class Grounded:
+        def query(self, question, k): return [Chunk()]
+        def is_grounded(self, chunks): return True
+
+    class FlakyLLM:
+        provider_name, model_name = 'flaky', 'flaky-model'
+
+        def __init__(self):
+            self.calls = 0
+
+        @property
+        def primary(self):
+            return self
+
+        def generate(self, system, messages):
+            self.calls += 1
+            if self.calls == 1:
+                raise LLMUnavailableError('simulated timeout')
+            return 'Paris is the capital of France.'
+
+    monkeypatch.setattr(agent, 'retriever_for', lambda settings: Grounded())
+    result = agent.handle_message(Settings(ALLOW_GENERAL_KNOWLEDGE=True), FlakyLLM(), [],
+                                   'What is the capital of France?')
+    assert result.grounded is False
+    assert result.citations == []
+    assert 'Paris' in result.text
+    assert any('general knowledge' in w for w in result.warnings)
+
+
+def test_generation_timeout_without_general_knowledge_shows_raw_error(monkeypatch, stub_llm):
+    """Same timeout, but with the flag off (the assignment demo default):
+    surface the plain connection error rather than silently switching modes."""
+    class Chunk:
+        guest, title, text = 'Guest', 'Title', 'evidence text'
+        publish_date, start_timestamp = '', '00:00:00'
+        youtube_url, deep_link, source_url = '', '', ''
+        similarity = 0.5
+
+    class Grounded:
+        def query(self, question, k): return [Chunk()]
+        def is_grounded(self, chunks): return True
+
+    def always_fails(system, messages):
+        raise LLMUnavailableError('simulated timeout')
+    stub_llm.generate = always_fails
+
+    monkeypatch.setattr(agent, 'retriever_for', lambda settings: Grounded())
+    result = agent.handle_message(Settings(ALLOW_GENERAL_KNOWLEDGE=False), stub_llm, [],
+                                   'What is the capital of France?')
+    assert result.grounded is False
+    assert "couldn't reach" in result.text.lower()
 
 
 def test_empty_retrieval_refuses_content_skills_without_calling_model(monkeypatch, stub_llm):
