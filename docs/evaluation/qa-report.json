@@ -1,0 +1,134 @@
+[
+  {
+    "question": "What did Lauryn Isford use as Airtable's team activation milestone, and why?",
+    "session_id": "ef70c95a-f05a-47df-bbe5-f969b879fd58",
+    "first_text_seconds": 112.9,
+    "total_seconds": 140.1,
+    "grounded": true,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=742s",
+        "start_timestamp": "00:12:22",
+        "publish_date": "2023-02-12",
+        "similarity": 0.549,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1659s",
+        "start_timestamp": "00:27:39",
+        "publish_date": "2023-02-12",
+        "similarity": 0.528,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1899s",
+        "start_timestamp": "00:31:39",
+        "publish_date": "2023-02-12",
+        "similarity": 0.507,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=936s",
+        "start_timestamp": "00:15:36",
+        "publish_date": "2023-02-12",
+        "similarity": 0.506,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=984s",
+        "start_timestamp": "00:16:24",
+        "publish_date": "2023-02-12",
+        "similarity": 0.48,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      }
+    ],
+    "answer": "Lauryn Isford used \"week four multi-user active\" as Airtable's team activation milestone. [2] She chose this metric because it breaks down into various components, such as the number of teams signing up as a team versus as an individual, the number of teams making it to week four, and the number of teams with more than two people invited or active in the fourth week. [2] By analyzing these components, she aimed to understand what levers could be pulled to have a significant impact on activation overall. [2]"
+  },
+  {
+    "question": "How would I apply that to my B2B team?",
+    "session_id": "ef70c95a-f05a-47df-bbe5-f969b879fd58",
+    "first_text_seconds": 43.6,
+    "total_seconds": 141.3,
+    "grounded": true,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=742s",
+        "start_timestamp": "00:12:22",
+        "publish_date": "2023-02-12",
+        "similarity": 0.522,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1582s",
+        "start_timestamp": "00:26:22",
+        "publish_date": "2023-02-12",
+        "similarity": 0.512,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=936s",
+        "start_timestamp": "00:15:36",
+        "publish_date": "2023-02-12",
+        "similarity": 0.511,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1899s",
+        "start_timestamp": "00:31:39",
+        "publish_date": "2023-02-12",
+        "similarity": 0.508,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=575s",
+        "start_timestamp": "00:09:35",
+        "publish_date": "2023-02-12",
+        "similarity": 0.504,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      }
+    ],
+    "answer": "1. **Identify key metrics**: Break down the week four multi-user active metric into its components, such as guided onboarding, ongoing education, and personalization. [3]\n2. **Understand your product's unique aspects**: Consider the shape of your business, product features, and pricing model. For example, if you have seat-based pricing and horizontal adoption, a workspace activation measure might be more suitable. [4]\n3. **Be agile and open-minded**: Recognize that growth teams should be agile and willing to change their focus metrics over time. This means being open to new signals for long-term retention, conversion, or other key metrics. [4]"
+  },
+  {
+    "question": "What is tomorrow's exact weather forecast in Bengaluru?",
+    "session_id": "e42efd73-d264-4978-9c80-0422b3f22ffd",
+    "first_text_seconds": 41.7,
+    "total_seconds": 50.2,
+    "grounded": false,
+    "warnings": [],
+    "sources": [],
+    "answer": "The provided transcript excerpts do not contain any information about tomorrow's exact weather forecast in Bengaluru. The conversations are focused on product management, decision-making, and visioning, but none of the topics relate to weather forecasts."
+  }
+]

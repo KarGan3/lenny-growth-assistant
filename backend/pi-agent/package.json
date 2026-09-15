@@ -1,0 +1,8 @@
+{
+  "name": "lenny-pi-agent",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "0.68.0"
+  }
+}

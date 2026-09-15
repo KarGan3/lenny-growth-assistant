@@ -1,0 +1,14 @@
+{
+  "input": "Rahul Vohra measures product-market fit by asking users how they would feel if they could no longer use the product. [3] He gives them three responses: very disappointed, somewhat disappointed, and not disappointed. [3] According to Rahul, companies that struggle to grow have less than 40% of users who are very disappointed, while those that grow quickly have more than 40% of users who are very disappointed. [4]",
+  "output": "He gives them three responses: very disappointed, somewhat disappointed, and not disappointed. [3]According to Rahul, companies that struggle to grow have less than 40% of users who are very disappointed, while those that grow quickly have more than 40% of users who are very disappointed. [3]",
+  "issues": [],
+  "removed_units": 1,
+  "seconds": 7.26,
+  "evidence_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

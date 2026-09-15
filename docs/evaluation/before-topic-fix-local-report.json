@@ -1,0 +1,185 @@
+[
+  {
+    "question": "Draft a Ship 30 for 30 essay for B2B product managers on improving user activation. Use approximately 1250 words, an opening hook, consistent practical steps, supported examples, citations, and a useful takeaway.",
+    "session_id": "9dda715f-2687-4fec-803a-b74f15c59804",
+    "first_text_seconds": 7.5,
+    "total_seconds": 207.4,
+    "word_count": 1170,
+    "artifacts": 1,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1451s",
+        "start_timestamp": "00:24:11",
+        "publish_date": "2023-02-12",
+        "similarity": 0.432,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Ben Williams",
+        "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+        "youtube_url": "https://www.youtube.com/watch?v=21sFTZzIfUk",
+        "deep_link": "https://www.youtube.com/watch?v=21sFTZzIfUk&t=4727s",
+        "start_timestamp": "01:18:47",
+        "publish_date": "2022-11-06",
+        "similarity": 0.405,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/ben-williams/transcript.md"
+      },
+      {
+        "guest": "Albert Cheng",
+        "title": "Finding hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+        "youtube_url": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
+        "deep_link": "https://www.youtube.com/watch?v=2BKmNmnEj9w&t=1832s",
+        "start_timestamp": "00:30:32",
+        "publish_date": "2025-10-05",
+        "similarity": 0.396,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/albert-cheng/transcript.md"
+      },
+      {
+        "guest": "Crystal W",
+        "title": "How to scrappily hire for, measure, and unlock growth | Crystal Widjaja, Gojek and Kumu",
+        "youtube_url": "https://www.youtube.com/watch?v=lYaiyi2ZX6Q",
+        "deep_link": "https://www.youtube.com/watch?v=lYaiyi2ZX6Q&t=2924s",
+        "start_timestamp": "00:48:44",
+        "publish_date": "2022-07-31",
+        "similarity": 0.347,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/crystal-w/transcript.md"
+      },
+      {
+        "guest": "Merci Grace",
+        "title": "Merci Grace \u2014 podcast transcript (source metadata uncertain)",
+        "youtube_url": "",
+        "deep_link": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/merci-grace/transcript.md",
+        "start_timestamp": "26:12",
+        "publish_date": "",
+        "similarity": 0.328,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/merci-grace/transcript.md"
+      }
+    ]
+  },
+  {
+    "question": "Turn that activation guidance into an HTML one-pager with practical recommendations and source citations.",
+    "session_id": "9dda715f-2687-4fec-803a-b74f15c59804",
+    "first_text_seconds": 43.9,
+    "total_seconds": 213.2,
+    "word_count": 530,
+    "artifacts": 1,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1451s",
+        "start_timestamp": "00:24:11",
+        "publish_date": "2023-02-12",
+        "similarity": 0.496,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Ben Williams",
+        "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+        "youtube_url": "https://www.youtube.com/watch?v=21sFTZzIfUk",
+        "deep_link": "https://www.youtube.com/watch?v=21sFTZzIfUk&t=4727s",
+        "start_timestamp": "01:18:47",
+        "publish_date": "2022-11-06",
+        "similarity": 0.465,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/ben-williams/transcript.md"
+      },
+      {
+        "guest": "Merci Grace",
+        "title": "Merci Grace \u2014 podcast transcript (source metadata uncertain)",
+        "youtube_url": "",
+        "deep_link": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/merci-grace/transcript.md",
+        "start_timestamp": "26:12",
+        "publish_date": "",
+        "similarity": 0.463,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/merci-grace/transcript.md"
+      },
+      {
+        "guest": "Albert Cheng",
+        "title": "Finding hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+        "youtube_url": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
+        "deep_link": "https://www.youtube.com/watch?v=2BKmNmnEj9w&t=1832s",
+        "start_timestamp": "00:30:32",
+        "publish_date": "2025-10-05",
+        "similarity": 0.425,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/albert-cheng/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=1218s",
+        "start_timestamp": "00:20:18",
+        "publish_date": "2023-04-02",
+        "similarity": 0.408,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      }
+    ]
+  },
+  {
+    "question": "Make a Markdown document summarizing the activation guidance for my team with source citations.",
+    "session_id": "9dda715f-2687-4fec-803a-b74f15c59804",
+    "first_text_seconds": 42.0,
+    "total_seconds": 172.2,
+    "word_count": 524,
+    "artifacts": 1,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Melissa Tan",
+        "title": "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)",
+        "youtube_url": "https://www.youtube.com/watch?v=DoEfXj1b_ko",
+        "deep_link": "https://www.youtube.com/watch?v=DoEfXj1b_ko&t=2117s",
+        "start_timestamp": "00:35:17",
+        "publish_date": "2023-06-18",
+        "similarity": 0.465,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/melissa-tan/transcript.md"
+      },
+      {
+        "guest": "Julia Schottenstein",
+        "title": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+        "youtube_url": "https://www.youtube.com/watch?v=y9hmrMBRPDI",
+        "deep_link": "https://www.youtube.com/watch?v=y9hmrMBRPDI&t=1729s",
+        "start_timestamp": "00:28:49",
+        "publish_date": "2023-07-13",
+        "similarity": 0.438,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/julia-schottenstein/transcript.md"
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1899s",
+        "start_timestamp": "00:31:39",
+        "publish_date": "2023-02-12",
+        "similarity": 0.422,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+      },
+      {
+        "guest": "Ben Williams",
+        "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+        "youtube_url": "https://www.youtube.com/watch?v=21sFTZzIfUk",
+        "deep_link": "https://www.youtube.com/watch?v=21sFTZzIfUk&t=4727s",
+        "start_timestamp": "01:18:47",
+        "publish_date": "2022-11-06",
+        "similarity": 0.42,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/ben-williams/transcript.md"
+      },
+      {
+        "guest": "Matt Mullenweg",
+        "title": "The one question that saves product careers | Matt LeMay",
+        "youtube_url": "https://www.youtube.com/watch?v=ts9ZvlkeWGs",
+        "deep_link": "https://www.youtube.com/watch?v=ts9ZvlkeWGs&t=1635s",
+        "start_timestamp": "00:27:15",
+        "publish_date": "2025-08-14",
+        "similarity": 0.417,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/matt-mullenweg/transcript.md"
+      }
+    ]
+  }
+]

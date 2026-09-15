@@ -1,0 +1,174 @@
+[
+  {
+    "question": "Draft a Ship 30 for 30 essay for B2B product managers on improving user activation. Use approximately 1250 words, an opening hook, consistent practical steps, supported examples, citations, and a useful takeaway.",
+    "session_id": "284c927f-cc9f-4919-93eb-b2486cc610ae",
+    "first_text_seconds": 35.1,
+    "total_seconds": 150.8,
+    "word_count": 619,
+    "artifacts": 1,
+    "warnings": [
+      "Essay length is 619 words; the target is approximately 1,250. Request a revision if needed."
+    ],
+    "sources": [
+      {
+        "guest": "Albert Cheng",
+        "title": "Finding hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+        "youtube_url": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
+        "deep_link": "https://www.youtube.com/watch?v=2BKmNmnEj9w&t=1766s",
+        "start_timestamp": "00:29:26",
+        "publish_date": "2025-10-05",
+        "similarity": 0.464
+      },
+      {
+        "guest": "Anuj Rathi",
+        "title": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
+        "youtube_url": "https://www.youtube.com/watch?v=1sClhfuCxP0",
+        "deep_link": "https://www.youtube.com/watch?v=1sClhfuCxP0&t=1810s",
+        "start_timestamp": "00:30:10",
+        "publish_date": "2023-12-07",
+        "similarity": 0.442
+      },
+      {
+        "guest": "Merci Grace",
+        "title": "How to work through fear, give hard feedback, and doing layoffs with grace | Matt Mochary",
+        "youtube_url": "https://www.youtube.com/watch?v=bCel0X2Ta7U",
+        "deep_link": "https://www.youtube.com/watch?v=bCel0X2Ta7U&t=1709s",
+        "start_timestamp": "28:29",
+        "publish_date": "2022-11-10",
+        "similarity": 0.439
+      },
+      {
+        "guest": "Anuj Rathi",
+        "title": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
+        "youtube_url": "https://www.youtube.com/watch?v=1sClhfuCxP0",
+        "deep_link": "https://www.youtube.com/watch?v=1sClhfuCxP0&t=1200s",
+        "start_timestamp": "00:20:00",
+        "publish_date": "2023-12-07",
+        "similarity": 0.435
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1846s",
+        "start_timestamp": "00:30:46",
+        "publish_date": "2023-02-12",
+        "similarity": 0.405
+      }
+    ]
+  },
+  {
+    "question": "Turn that activation guidance into an HTML one-pager with practical recommendations and source citations.",
+    "session_id": "284c927f-cc9f-4919-93eb-b2486cc610ae",
+    "first_text_seconds": 35.4,
+    "total_seconds": 98.6,
+    "word_count": 269,
+    "artifacts": 1,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Albert Cheng",
+        "title": "Finding hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+        "youtube_url": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
+        "deep_link": "https://www.youtube.com/watch?v=2BKmNmnEj9w&t=1766s",
+        "start_timestamp": "00:29:26",
+        "publish_date": "2025-10-05",
+        "similarity": 0.48
+      },
+      {
+        "guest": "Merci Grace",
+        "title": "How to work through fear, give hard feedback, and doing layoffs with grace | Matt Mochary",
+        "youtube_url": "https://www.youtube.com/watch?v=bCel0X2Ta7U",
+        "deep_link": "https://www.youtube.com/watch?v=bCel0X2Ta7U&t=1709s",
+        "start_timestamp": "28:29",
+        "publish_date": "2022-11-10",
+        "similarity": 0.476
+      },
+      {
+        "guest": "Anuj Rathi",
+        "title": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
+        "youtube_url": "https://www.youtube.com/watch?v=1sClhfuCxP0",
+        "deep_link": "https://www.youtube.com/watch?v=1sClhfuCxP0&t=1200s",
+        "start_timestamp": "00:20:00",
+        "publish_date": "2023-12-07",
+        "similarity": 0.464
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1815s",
+        "start_timestamp": "00:30:15",
+        "publish_date": "2023-02-12",
+        "similarity": 0.463
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1846s",
+        "start_timestamp": "00:30:46",
+        "publish_date": "2023-02-12",
+        "similarity": 0.459
+      }
+    ]
+  },
+  {
+    "question": "Make a Markdown document summarizing the activation guidance for my team with source citations.",
+    "session_id": "284c927f-cc9f-4919-93eb-b2486cc610ae",
+    "first_text_seconds": 51.2,
+    "total_seconds": 102.8,
+    "word_count": 201,
+    "artifacts": 0,
+    "warnings": [
+      "The model did not provide valid source references throughout. Verify this draft against the source excerpts."
+    ],
+    "sources": [
+      {
+        "guest": "Melissa Tan",
+        "title": "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)",
+        "youtube_url": "https://www.youtube.com/watch?v=DoEfXj1b_ko",
+        "deep_link": "https://www.youtube.com/watch?v=DoEfXj1b_ko&t=2117s",
+        "start_timestamp": "00:35:17",
+        "publish_date": "2023-06-18",
+        "similarity": 0.465
+      },
+      {
+        "guest": "Julia Schottenstein",
+        "title": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+        "youtube_url": "https://www.youtube.com/watch?v=y9hmrMBRPDI",
+        "deep_link": "https://www.youtube.com/watch?v=y9hmrMBRPDI&t=1729s",
+        "start_timestamp": "00:28:49",
+        "publish_date": "2023-07-13",
+        "similarity": 0.438
+      },
+      {
+        "guest": "Lauryn Isford",
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+        "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1899s",
+        "start_timestamp": "00:31:39",
+        "publish_date": "2023-02-12",
+        "similarity": 0.422
+      },
+      {
+        "guest": "Ben Williams",
+        "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+        "youtube_url": "https://www.youtube.com/watch?v=21sFTZzIfUk",
+        "deep_link": "https://www.youtube.com/watch?v=21sFTZzIfUk&t=4727s",
+        "start_timestamp": "01:18:47",
+        "publish_date": "2022-11-06",
+        "similarity": 0.42
+      },
+      {
+        "guest": "Matt Mullenweg",
+        "title": "The one question that saves product careers | Matt LeMay",
+        "youtube_url": "https://www.youtube.com/watch?v=ts9ZvlkeWGs",
+        "deep_link": "https://www.youtube.com/watch?v=ts9ZvlkeWGs&t=1635s",
+        "start_timestamp": "00:27:15",
+        "publish_date": "2025-08-14",
+        "similarity": 0.417
+      }
+    ]
+  }
+]

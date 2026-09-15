@@ -1,0 +1,13 @@
+{
+  "question": "How does Rahul Vohra measure product-market fit?",
+  "claim": "Rahul Vohra measures product-market fit by asking users how they would feel if they could no longer use the product, with three responses: very disappointed, somewhat disappointed, and not disappointed. [4]",
+  "classifier": "cross-encoder/nli-deberta-v3-small quantized ONNX",
+  "speaker_turn_max_scores": {
+    "1": 0.017717644572257996,
+    "2": 0.03605789691209793,
+    "3": 0.013198363594710827,
+    "4": 0.8760325908660889,
+    "5": 0.10873917490243912
+  },
+  "manual_finding": "Passage 3 contains the survey question/responses; passage 4 discusses survey delivery and changing the baseline, so the retained citation is incorrect. Scores are copied from the actual local probe stdout."
+}

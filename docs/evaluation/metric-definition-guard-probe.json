@@ -1,0 +1,6 @@
+{
+  "original": "1. **Identify key metrics**: Break down the activation metric into its components, such as guided onboarding, ongoing education, and personalization. [3]\n2. **Understand your product's unique aspects**: Consider the shape of your business, product features, and pricing model. For example, if you have seat-based pricing and horizontal adoption, a workspace activation measure might be more suitable. [4]\n3. **Focus on customer value**: Prioritize features that bring value to customers, even if they don't directly impact key metrics like signup percentage. [5]",
+  "filtered": "2. **Understand your product's unique aspects**: Consider the shape of your business, product features, and pricing model. For example, if you have seat-based pricing and horizontal adoption, a workspace activation measure might be more suitable. [4]\n3. **Focus on customer value**: Prioritize features that bring value to customers, even if they don't directly impact key metrics like signup percentage. [5]",
+  "issues": [],
+  "removed_units": 1
+}

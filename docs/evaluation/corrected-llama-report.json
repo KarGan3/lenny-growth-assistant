@@ -1,0 +1,203 @@
+[
+  {
+    "number": 1,
+    "question": "How does Rahul Vohra measure product-market fit?",
+    "session_id": "b24fd1a3-6177-40cf-a890-dcda4fb7bbb9",
+    "answer": "Rahul Vohra measures product-market fit by asking users how they would feel if they could no longer use the product. [3] He gives them three responses: very disappointed, somewhat disappointed, and not disappointed. [3] According to Rahul, companies that struggle to grow have less than 40% of users who are very disappointed, while those that grow quickly have more than 40% of users who are very disappointed. [4]",
+    "provider": "ollama",
+    "model": "llama3.2:3b",
+    "first_text_seconds": 0.9,
+    "total_seconds": 36.4,
+    "grounded": true,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Rahul Vohra",
+        "title": "Superhuman's secret to success | Rahul Vohra (CEO and founder)",
+        "youtube_url": "https://www.youtube.com/watch?v=0igjSRZyX-w",
+        "deep_link": "https://www.youtube.com/watch?v=0igjSRZyX-w&t=3192s",
+        "start_timestamp": "00:53:12",
+        "publish_date": "2025-03-23",
+        "similarity": 0.683,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/rahul-vohra/transcript.md"
+      },
+      {
+        "guest": "Rahul Vohra",
+        "title": "Superhuman's secret to success | Rahul Vohra (CEO and founder)",
+        "youtube_url": "https://www.youtube.com/watch?v=0igjSRZyX-w",
+        "deep_link": "https://www.youtube.com/watch?v=0igjSRZyX-w&t=3100s",
+        "start_timestamp": "00:51:40",
+        "publish_date": "2025-03-23",
+        "similarity": 0.571,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/rahul-vohra/transcript.md"
+      },
+      {
+        "guest": "Rahul Vohra",
+        "title": "Superhuman's secret to success | Rahul Vohra (CEO and founder)",
+        "youtube_url": "https://www.youtube.com/watch?v=0igjSRZyX-w",
+        "deep_link": "https://www.youtube.com/watch?v=0igjSRZyX-w&t=3285s",
+        "start_timestamp": "00:54:45",
+        "publish_date": "2025-03-23",
+        "similarity": 0.484,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/rahul-vohra/transcript.md"
+      },
+      {
+        "guest": "Rahul Vohra",
+        "title": "Superhuman's secret to success | Rahul Vohra (CEO and founder)",
+        "youtube_url": "https://www.youtube.com/watch?v=0igjSRZyX-w",
+        "deep_link": "https://www.youtube.com/watch?v=0igjSRZyX-w&t=3494s",
+        "start_timestamp": "00:58:14",
+        "publish_date": "2025-03-23",
+        "similarity": 0.427,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/rahul-vohra/transcript.md"
+      },
+      {
+        "guest": "Rahul Vohra",
+        "title": "Superhuman's secret to success | Rahul Vohra (CEO and founder)",
+        "youtube_url": "https://www.youtube.com/watch?v=0igjSRZyX-w",
+        "deep_link": "https://www.youtube.com/watch?v=0igjSRZyX-w&t=2935s",
+        "start_timestamp": "00:48:55",
+        "publish_date": "2025-03-23",
+        "similarity": 0.396,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/rahul-vohra/transcript.md"
+      }
+    ],
+    "retrieval_query": "How does Rahul Vohra measure product-market fit?",
+    "context": "[1] Source: Rahul Vohra \u2014 \"Superhuman's secret to success | Rahul Vohra (CEO and founder)\" (2025-03-23) @ 00:53:12\nRahul Vohra (00:53:12): The core ideas are still weird enough that I'll start there. Which is number one, you can measure product market fit. Number two, you can optimize product market fit. Number three, you can systematically, even numerically increase product market fit. And number four, you can even have an algorithm write your roadmap for you, and that is a roadmap that is guaranteed to increase product market fit. Now, if that sounds crazy, I would be the first to admit it doesn't seem like that should be true, but go check out that post. I think it is still the most widely shared post on First Round Review, it's called How Superhuman Built an Engine to Find Product Market Fit, or just Google the Superhuman Product Market Fit Engine. And you'll see the algorithm laid out there fully explained and why it works. (00:54:07): I'd say the second thing is to get to product market fit, you have to deliberately not act on the feedback of many of your early users. This is at the same time as listening to people intensely and building what people want. That's what we're here to do, is to make something that people want. But it can't be all people. It can't be everybody. The question becomes, how do you listen to them? And then even of what they say, what do you pay attention to and what don't you? All of that's covered in the Product Market Fit Engine.\n\nLenny Rachitsky (00:54:45): Okay, I got to follow this thought on algorithmically building your roadmap to increase product market fit. Talk about how one would do that.\n\n[2] Source: Rahul Vohra \u2014 \"Superhuman's secret to success | Rahul Vohra (CEO and founder)\" (2025-03-23) @ 00:51:40\nLenny Rachitsky (00:51:40): Super interesting. I guess some factors to think about, because I wanted to ask you when should people consider doing this? If they're hearing this and they're like, \"This is awesome, so many problems solved if I just have somebody onboarding every new user, everyone's activated. Amazing.\" So some of the variables you're sharing is, do you have like cheap cash to invest in say, it doesn't have to be 20 people, it could be a few people to start. Then if there's an LTV, ACV element of just are you going to make enough from a new customer? Imagine that's a variable. Is there anything else you think founders should think about?\n\nRahul Vohra (00:52:14): Absolutely. You don't want to lose money doing this. We always made money doing onboarding to be clear, it's just that at a certain point the mass market, whether it for us it's enterprise or all of the prosumers in the world, you hit a top of funnel width, it needs to be wide enough where manually onboarding no longer makes sense.\n\nLenny Rachitsky (00:52:37): Awesome. Okay, let's talk about product market fit. I know that everyone, when they think of Rahul, they think product market fit. You wrote this epic First Round post that described the way you guys approach product market fit. We're not going to spend a lot of time on describing it, because people can look it up. So let me just ask you this, what are a couple of things that you think people still don't understand about finding product market fit, getting to product market fit? Considering it's the most important thing you got to figure out as a\n\n[3] Source: Rahul Vohra \u2014 \"Superhuman's secret to success | Rahul Vohra (CEO and founder)\" (2025-03-23) @ 00:54:45\nLenny Rachitsky (00:54:45): Okay, I got to follow this thought on algorithmically building your roadmap to increase product market fit. Talk about how one would do that.\n\nRahul Vohra (00:54:55): Well, that's really the meat of the engine. Let's see if I can condense it here in a very easy to grok fashion. Let's assume for the sake of argument, that you can put a number on product market fit, and it turns out you can. Very simply, you're going to ask people, \"How would you feel if you can no longer use this product?\" You give them three responses. One of them is very disappointed, the other is somewhat disappointed, and the other is not disappointed. Very disappointed means, \"I'd be devastated. I love this product. I need this product.\" (00:55:30): What Sean Ellis found, Sean Ellis, if you don't know him, is the guy who coined the term growth hacker, and he instrumented, benchmarked this initial question. What he found, is that the companies that struggled to grow almost always had less than 40%, very disappointed. Whereas the companies that grew the fastest almost always had more than 40%, very disappointed. And this question, this metric is way more predictive of success than something, for example, like net promoter score. (00:56:03): Okay, so far so easy. How do we make this number go up? Well, you want more people to be very disappointed without your product. The trick here is not to act too much on the feedback that the very disappointed people are giving you, because they already love your product. Also, not to act at all really on the feedback that the not disappoint\n\n[4] Source: Rahul Vohra \u2014 \"Superhuman's secret to success | Rahul Vohra (CEO and founder)\" (2025-03-23) @ 00:58:14\nLenny Rachitsky (00:58:14): That was an excellent summary. I know I said we wouldn't spend a ton of time here, but I'm really glad we did. That was really helpful. Let me ask you this, I know you used this initially in the early days, are you still operating in this way in some form?\n\nRahul Vohra (00:58:24): We don't run the engine as is for Superhuman as a whole. There are enough subcomponents of Superhuman now that are almost individual products. For example, Superhuman for Sales, our multiplayer and collaboration features, how we think about the enterprise, AI is its whole thing, but we do sometimes run it on those individual pieces. For example, we'll ask a salesperson, the Product Market Fit Engine, as it relates to Superhuman for sales. As we think about starting new products, we would absolutely deploy the product market fit engine.\n\nLenny Rachitsky (00:58:59): Awesome. The way you ask this question is an in-product interstitial sort of survey pop-up thing?\n\nRahul Vohra (00:59:04): You can do it however you want. The way Sean initially benchmarked the number was via email surveys. I think email surveys work just fine. The key thing is, and this applies to any survey methodology, if you're going to change the method of surveying, all of your old numbers are invalidated. So it's just a new baseline going forwards.\n\nLenny Rachitsky (00:59:25): Got it. We had Sean on the podcast and he describes this method in detail. So if folks want to explore the Sean Ellis test, listen to that podcast. We'll link to it. (00:59:33): Okay, next topic that I'm excited to get your take o\n\n[5] Source: Rahul Vohra \u2014 \"Superhuman's secret to success | Rahul Vohra (CEO and founder)\" (2025-03-23) @ 00:48:55\nRahul Vohra (00:48:55): I think the reason to stop is that there will always be certain personality types who do not want to go through a one-on-one onboarding. At a certain point those people will become very important, and you'll need to be ready with a world-class self-service option. When we started building self-service, it seemed nearly impossible. In fact, it was terrifying, because it's difficult to overstate how much the entire DNA of the company was built around this idea that we would onboard users manually. After all, we did so much in our one-to-one onboardings and there's only so much that software can do. Now, we did after a lot of grind and persistence eventually figure it out and we have a world-class self-service experience today, but we did not at the time. (00:49:49): So the flip side is, why would you even do this to begin with? What we found is two things. Number one, the user metrics are excellent for things like engagement, retention, product market fit score, MPS, virality, for all of those metrics. I think you you'll significantly beat your industry benchmarks if you go to the effort of one-on-one onboarding your early customers. It becomes so powerful to have that early cohort of super fans when it comes to things like building a brand. If folks remember that conversation from way up at the top, what is it that creates true virality? It's not viral mechanics, it's word of mouth. It is brand. This is how you can kickstart a brand. (00:50:32): And number two, in a world where you can easily and quickly raise funding, like for example the zero intere",
+    "manual_score": "pending"
+  },
+  {
+    "number": 2,
+    "question": "What is an activation aha moment, and how did Hila Qu approach it at GitLab?",
+    "session_id": "3175aff2-0493-4369-9cb2-584bde9350db",
+    "answer": "An activation aha moment refers to the moment when a user experiences a significant insight or understanding that leads to their engagement and adoption of a product. [2]\n\nTo design an experience that leads to the activation aha moment, Hila Qu recommends the following: [2]\n\n1. Identify potential action or behavior that indicates a user is getting value from the product. [2]\n3. Design a product experience that removes frictions and gives users a warm start, such as providing a sample template or initial experience that allows them to play with the product. [2]\n4. Supplement this experience with email to bring users to the product if they don't engage. [2]\n\n Hila Qu explains that she looks at the first initial emails sent to users to see if they can help a lot in getting to the aha moment.\n[3] Hila Qu mentions that she thinks it's not that hard to just map out the big steps, but the devil is in the details. [5]",
+    "provider": "ollama",
+    "model": "llama3.2:3b",
+    "first_text_seconds": 34.6,
+    "total_seconds": 127.7,
+    "grounded": true,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2484s",
+        "start_timestamp": "00:41:24",
+        "publish_date": "2023-04-02",
+        "similarity": 0.572,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2880s",
+        "start_timestamp": "00:48:00",
+        "publish_date": "2023-04-02",
+        "similarity": 0.541,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2677s",
+        "start_timestamp": "00:44:37",
+        "publish_date": "2023-04-02",
+        "similarity": 0.532,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2047s",
+        "start_timestamp": "00:34:07",
+        "publish_date": "2023-04-02",
+        "similarity": 0.531,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=1205s",
+        "start_timestamp": "00:20:05",
+        "publish_date": "2023-04-02",
+        "similarity": 0.524,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      }
+    ],
+    "retrieval_query": "What is an activation aha moment, and how did Hila Qu approach it at GitLab?",
+    "context": "[1] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:41:24\nLenny (00:41:24): Aha moment and activation is often interchangeable, right?\n\nHila Qu (00:41:27): Yeah.\n\nLenny (00:41:27): So those are kind of two things you'll hear. And just to reframe, re-say what you say, so GitLab's activation slash aha moment milestone was two users using two features in 14 days.\n\nHila Qu (00:41:38): Mm-hmm.\n\nLenny (00:41:40): And I imagine the way you got to that was you looked at what point does retention improve if they got to a certain milestone, right? Is that roughly how you [inaudible 00:41:48]?\n\nHila Qu (00:41:47): Yeah, exactly. So there are how you can get to that, right? First of all, the internal team, our growth team, actually we did some brainstorming. We think about what are the potential action or behavior that indicate they're getting value. We ideally want to do something like they maybe successfully merge their first PR or they successfully run their first pipeline. All of that. There are some potential high value actions we can think of. We just list all of them. And then the next step is, we did a correlation analysis to understand, hey, those are the 10 high value actions we believe we want to look at. If a new user did this action, what's the maybe 30 day conversion rate and... Not 30 day, 90 day conversion rate. What's the 30 day retention rate? Because we look at both. Sometimes you only look at retention or you only look at conversion, it doesn't give you the full picture. (00:42:52): So we look at if you did this action, let's say if, Lenny, you are trying our product, you are able to successfully merge the PR in your first\n\n[2] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:48:00\nHila Qu (00:48:00): ... where is confusing. Where do you get stuck if you find that you have a problem with activation, meaning if you enter into the product you are like what do I do, I don't know what should I do, and maybe I just left. And then, if that's the biggest opportunity, activation, then you need to think about find the right aha moment metric as the first step, as we just talked about, because that's the success, that's the goalpost. And then, design a product experience to help more people together. And I usually think about do is better than show is better than tell, meaning you want to remove all the frictions and somehow give them a warm start, give them some sample template, give them some sample thing they can play with initially in that very moment already, and you can supplement that with your email to bring them to the product if they don't do that. So that's activation. If activation is okay, but your conversion, your self-check checkout flow, usually there are also room for improvement. Many company I work with, when I try to buy, I cannot even find where to buy. It's very hard to find where do I click to start this checkout process, or they may have some frictions in the checkout flow where it's not localized. One company, when I look at their data, they find that India has very low success rate, which is expected, but we begin to say it's because the payment solution they choose actually doesn't support that market well. And they added another payment solution, immediately they are seeing much better success rate. And if they're already in the chec\n\n[3] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:44:37\nLenny (00:44:37): Hila, this is amazing. This is like a mini podcast on activation. We should do another one just on this. And then in the show notes, I'll link to a couple posts that I've written with a bunch of advice on setting activation milestones and improving them. I forget if you've contributed to that post or not, but if not, we should add some of these stories. But let's get back to our core. We have enough to talk about on just product led growth. So just to summarize the audit that you do, I wrote some notes as you were talking, and maybe we can keep going from that point. What you look for when you're auditing a product to see where they may pick a starting point, what I wrote down is, one, are you just excited to try it? Is the landing page pulling you in? Two, can you actually use it on your own and just try it? Three, do you get to the aha moment where you're like, okay, I get it, [inaudible 00:45:25] it, and then can I actually buy this on my own? Is that roughly the audit? Is there anything more to that?\n\nHila Qu (00:45:30): Exactly. And I also look at their initial first few emails they send to me, because sometimes the email magically can help a lot. If I'm frustrated the first time... The other day I'm trying a product, I'm frustrated, I'm like, I will give up. And then in the night I saw an email, I'm like, oh, maybe I just click the CTA and give it one more try. And that time actually I figured out I get to the aha moment. (00:45:57): So I also look at the email, the first initial emails, and then when I map this out, I ask the company to give me the \n\n[4] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:34:07\nLenny (00:34:07): Great. Thank you for sharing that example. Maybe a last question on this first step of mapping out the funnel. Do you recommend people just get in front of a whiteboard and just sit together and like, \"Here's what it would be potentially if we added a product-led growth motion?\"\n\nHila Qu (00:34:20): Yes. Yes. And I think it's not that... The devil is in the details. Just mapping out the big steps is not that hard. You think about, \" I have a marketing site already. I can build a free version.\" And then they use the free version and I build a checkout flow and that's it. That's the story. But that's the first step. If you don't even have those components, mapping out the funnel will allow you to see a missing checkout flow, a missing free version, you already identified that. But the devil is in the detail one layer down. How do you design an experience for each of the step? What do you say on your marketing side to drive free signup? In the free signup, how do you guide them to use the three most important features? And in the checkout flow, which payment option do you offer so that customers from everywhere can buy very smoothly? So that's the next layers kind of detail that actually has so many opportunities for optimization, maximization and all of that.\n\nLenny (00:35:29): That's actually a really good segue to the next question, which is just, okay, you've mapped out the funnel, what do you do next?\n\nHila Qu (00:35:35): If you don't have the foundational components, you need to build all of that. But if you have something, if you already have this funn\n\n[5] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:20:05\nLenny (00:20:05): You kind of shared some of the attributes of what allows you to be product led, like quick time to value. If you have this in your head, what are some of those bullet points of what you need to figure out for it to be successful potentially as product led?\n\nHila Qu (00:20:18): The first thing is that have a... And you mentioned you are able to have a vehicle, have a free version, have a free trial. Sometimes it's a open source product. A lot of developer products start as a open source product. It has its constraints, but it is also a great kind of vehicle for PLG or if none of those are option, you can build a really realistic kind of experience. For example, I remember Amplitude, they are pursuing PLG now, but they used to have a lot of barrier. As an end user, it's hard for me to put that code into my product and see my data, but they build a really realistic interactive demo that's getting closer to PLG. So it's not PLG, but it's getting closer and you can already see the value and play with it yourself. So that's the first step. Have a vehicle. (00:21:18): The second step step is time to value. Basically, just because you have this vehicle doesn't mean people will come and use it and see the value. So you need to figure out how do you give your users a warm start and help them get started. I was talking with a kind of company today, they just realized we have this tool and when people come in into the free trial, they are asked to do some action, but nobody know how to do that. They may not have everything ready to take that action. So we're like, \"Wh",
+    "manual_score": "pending"
+  },
+  {
+    "number": 9,
+    "question": "How would I apply that to my team?",
+    "session_id": "3175aff2-0493-4369-9cb2-584bde9350db",
+    "answer": "To apply Hila Qu's approach to activation and aha moments to your team, follow these steps: [5]\n\n1. Identify potential action or behavior that indicates a user is getting value from your product. [2]\n\nTo map out the funnel and identify potential areas for optimization, Hila Qu recommends: [4]\n\n* Mapping out the big steps and identifying potential action or behavior that indicates a user is getting value from the product. [5]\n* Conducting a correlation analysis to understand the impact of different actions on conversion and retention rates. [3]\n* Identifying the most important features and designing an experience that guides users to use them. [1]\n\nTo apply these steps to your team, start by:\n\n* Identifying your product's key features and identifying potential areas for optimization. [1]\n* Conducting a correlation analysis to understand the impact of different actions on conversion and retention rates. [3]\n* Designing a product experience that removes frictions and gives users a warm start. [1]\n* Supplementing this experience with email to bring users to the product if they don't engage. [1]\n\nBy following these steps, you can design an experience that leads to the activation aha moment and drives user engagement and conversion. [1]",
+    "provider": "ollama",
+    "model": "llama3.2:3b",
+    "first_text_seconds": 35.6,
+    "total_seconds": 150.7,
+    "grounded": true,
+    "warnings": [],
+    "sources": [
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2880s",
+        "start_timestamp": "00:48:00",
+        "publish_date": "2023-04-02",
+        "similarity": 0.555,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2677s",
+        "start_timestamp": "00:44:37",
+        "publish_date": "2023-04-02",
+        "similarity": 0.55,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2484s",
+        "start_timestamp": "00:41:24",
+        "publish_date": "2023-04-02",
+        "similarity": 0.528,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=2047s",
+        "start_timestamp": "00:34:07",
+        "publish_date": "2023-04-02",
+        "similarity": 0.522,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      },
+      {
+        "guest": "Hila Qu",
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA",
+        "deep_link": "https://www.youtube.com/watch?v=7l1fIxk7SnA&t=1205s",
+        "start_timestamp": "00:20:05",
+        "publish_date": "2023-04-02",
+        "similarity": 0.502,
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/hila-qu/transcript.md"
+      }
+    ],
+    "retrieval_query": "What is an activation aha moment, and how did Hila Qu approach it at GitLab?\nHow would I apply that to my team?",
+    "context": "[1] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:48:00\nHila Qu (00:48:00): ... where is confusing. Where do you get stuck if you find that you have a problem with activation, meaning if you enter into the product you are like what do I do, I don't know what should I do, and maybe I just left. And then, if that's the biggest opportunity, activation, then you need to think about find the right aha moment metric as the first step, as we just talked about, because that's the success, that's the goalpost. And then, design a product experience to help more people together. And I usually think about do is better than show is better than tell, meaning you want to remove all the frictions and somehow give them a warm start, give them some sample template, give them some sample thing they can play with initially in that very moment already, and you can supplement that with your email to bring them to the product if they don't do that. So that's activation. If activation is okay, but your conversion, your self-check checkout flow, usually there are also room for improvement. Many company I work with, when I try to buy, I cannot even find where to buy. It's very hard to find where do I click to start this checkout process, or they may have some frictions in the checkout flow where it's not localized. One company, when I look at their data, they find that India has very low success rate, which is expected, but we begin to say it's because the payment solution they choose actually doesn't support that market well. And they added another payment solution, immediately they are seeing much better success rate. And if they're already in the chec\n\n[2] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:44:37\nLenny (00:44:37): Hila, this is amazing. This is like a mini podcast on activation. We should do another one just on this. And then in the show notes, I'll link to a couple posts that I've written with a bunch of advice on setting activation milestones and improving them. I forget if you've contributed to that post or not, but if not, we should add some of these stories. But let's get back to our core. We have enough to talk about on just product led growth. So just to summarize the audit that you do, I wrote some notes as you were talking, and maybe we can keep going from that point. What you look for when you're auditing a product to see where they may pick a starting point, what I wrote down is, one, are you just excited to try it? Is the landing page pulling you in? Two, can you actually use it on your own and just try it? Three, do you get to the aha moment where you're like, okay, I get it, [inaudible 00:45:25] it, and then can I actually buy this on my own? Is that roughly the audit? Is there anything more to that?\n\nHila Qu (00:45:30): Exactly. And I also look at their initial first few emails they send to me, because sometimes the email magically can help a lot. If I'm frustrated the first time... The other day I'm trying a product, I'm frustrated, I'm like, I will give up. And then in the night I saw an email, I'm like, oh, maybe I just click the CTA and give it one more try. And that time actually I figured out I get to the aha moment. (00:45:57): So I also look at the email, the first initial emails, and then when I map this out, I ask the company to give me the \n\n[3] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:41:24\nLenny (00:41:24): Aha moment and activation is often interchangeable, right?\n\nHila Qu (00:41:27): Yeah.\n\nLenny (00:41:27): So those are kind of two things you'll hear. And just to reframe, re-say what you say, so GitLab's activation slash aha moment milestone was two users using two features in 14 days.\n\nHila Qu (00:41:38): Mm-hmm.\n\nLenny (00:41:40): And I imagine the way you got to that was you looked at what point does retention improve if they got to a certain milestone, right? Is that roughly how you [inaudible 00:41:48]?\n\nHila Qu (00:41:47): Yeah, exactly. So there are how you can get to that, right? First of all, the internal team, our growth team, actually we did some brainstorming. We think about what are the potential action or behavior that indicate they're getting value. We ideally want to do something like they maybe successfully merge their first PR or they successfully run their first pipeline. All of that. There are some potential high value actions we can think of. We just list all of them. And then the next step is, we did a correlation analysis to understand, hey, those are the 10 high value actions we believe we want to look at. If a new user did this action, what's the maybe 30 day conversion rate and... Not 30 day, 90 day conversion rate. What's the 30 day retention rate? Because we look at both. Sometimes you only look at retention or you only look at conversion, it doesn't give you the full picture. (00:42:52): So we look at if you did this action, let's say if, Lenny, you are trying our product, you are able to successfully merge the PR in your first\n\n[4] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:34:07\nLenny (00:34:07): Great. Thank you for sharing that example. Maybe a last question on this first step of mapping out the funnel. Do you recommend people just get in front of a whiteboard and just sit together and like, \"Here's what it would be potentially if we added a product-led growth motion?\"\n\nHila Qu (00:34:20): Yes. Yes. And I think it's not that... The devil is in the details. Just mapping out the big steps is not that hard. You think about, \" I have a marketing site already. I can build a free version.\" And then they use the free version and I build a checkout flow and that's it. That's the story. But that's the first step. If you don't even have those components, mapping out the funnel will allow you to see a missing checkout flow, a missing free version, you already identified that. But the devil is in the detail one layer down. How do you design an experience for each of the step? What do you say on your marketing side to drive free signup? In the free signup, how do you guide them to use the three most important features? And in the checkout flow, which payment option do you offer so that customers from everywhere can buy very smoothly? So that's the next layers kind of detail that actually has so many opportunities for optimization, maximization and all of that.\n\nLenny (00:35:29): That's actually a really good segue to the next question, which is just, okay, you've mapped out the funnel, what do you do next?\n\nHila Qu (00:35:35): If you don't have the foundational components, you need to build all of that. But if you have something, if you already have this funn\n\n[5] Source: Hila Qu \u2014 \"The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)\" (2023-04-02) @ 00:20:05\nLenny (00:20:05): You kind of shared some of the attributes of what allows you to be product led, like quick time to value. If you have this in your head, what are some of those bullet points of what you need to figure out for it to be successful potentially as product led?\n\nHila Qu (00:20:18): The first thing is that have a... And you mentioned you are able to have a vehicle, have a free version, have a free trial. Sometimes it's a open source product. A lot of developer products start as a open source product. It has its constraints, but it is also a great kind of vehicle for PLG or if none of those are option, you can build a really realistic kind of experience. For example, I remember Amplitude, they are pursuing PLG now, but they used to have a lot of barrier. As an end user, it's hard for me to put that code into my product and see my data, but they build a really realistic interactive demo that's getting closer to PLG. So it's not PLG, but it's getting closer and you can already see the value and play with it yourself. So that's the first step. Have a vehicle. (00:21:18): The second step step is time to value. Basically, just because you have this vehicle doesn't mean people will come and use it and see the value. So you need to figure out how do you give your users a warm start and help them get started. I was talking with a kind of company today, they just realized we have this tool and when people come in into the free trial, they are asked to do some action, but nobody know how to do that. They may not have everything ready to take that action. So we're like, \"Wh",
+    "manual_score": "pending"
+  }
+]

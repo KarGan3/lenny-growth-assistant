@@ -1,0 +1,24 @@
+.local/
+.venv/
+.env
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+data/*.db
+data/postgres/
+backend/pi-agent/node_modules/
+# Regenerated knowledge and third-party transcript clone
+rag/data_repo/
+data/chroma*/
+data/chunks.jsonl
+data/knowledge-build.*/
+submission/
+*.log
+.agents/
+.codex/
+frontend/test-results/
+frontend/playwright-report/
+backend/data/
+.claude/

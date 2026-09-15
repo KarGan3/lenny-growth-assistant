@@ -1,0 +1,60 @@
+{
+  "session_id": "ef70c95a-f05a-47df-bbe5-f969b879fd58",
+  "first_text_seconds": 45.5,
+  "total_seconds": 80.4,
+  "answer": "1. **Identify key metrics**: Break down the activation metric into its components, such as guided onboarding, ongoing education, and personalization. [3]\n2. **Understand your product's unique aspects**: Consider the shape of your business, product features, and pricing model. For example, if you have seat-based pricing and horizontal adoption, a workspace activation measure might be more suitable. [4]\n3. **Focus on customer value**: Prioritize features that bring value to customers, even if they don't directly impact key metrics like signup percentage. [5]",
+  "grounded": true,
+  "sources": [
+    {
+      "guest": "Lauryn Isford",
+      "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+      "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+      "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=742s",
+      "start_timestamp": "00:12:22",
+      "publish_date": "2023-02-12",
+      "similarity": 0.522,
+      "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+    },
+    {
+      "guest": "Lauryn Isford",
+      "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+      "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+      "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1582s",
+      "start_timestamp": "00:26:22",
+      "publish_date": "2023-02-12",
+      "similarity": 0.512,
+      "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+    },
+    {
+      "guest": "Lauryn Isford",
+      "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+      "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+      "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=936s",
+      "start_timestamp": "00:15:36",
+      "publish_date": "2023-02-12",
+      "similarity": 0.511,
+      "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+    },
+    {
+      "guest": "Lauryn Isford",
+      "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+      "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+      "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=1899s",
+      "start_timestamp": "00:31:39",
+      "publish_date": "2023-02-12",
+      "similarity": 0.508,
+      "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+    },
+    {
+      "guest": "Lauryn Isford",
+      "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+      "youtube_url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+      "deep_link": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=575s",
+      "start_timestamp": "00:09:35",
+      "publish_date": "2023-02-12",
+      "similarity": 0.504,
+      "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/lauryn-isford/transcript.md"
+    }
+  ],
+  "warnings": []
+}
