@@ -86,8 +86,26 @@ general-knowledge replies stop reuse. Source quality limits of the original answ
 remain; formatting is not an independent factual verification. Session provider/model
 metadata is preserved on formatting-only requests because no new model answered.
 
-The submitted default `ALLOW_GENERAL_KNOWLEDGE=false` refuses low-similarity/empty retrieval without
-a model call for every skill. Optional general-knowledge replies can be enabled explicitly for plain
+**Similarity threshold is a circuit-breaker, not the grounding mechanism.** The default `local-lexical`
+embedder (TF-IDF + SVD, chosen so the demo needs no extra model download) doesn't separate on-topic
+from off-topic queries cleanly: semantically unrelated text can still score 0.3–0.5 on lexical overlap
+against a 23k-chunk corpus, so `RAG_MIN_SIMILARITY` only catches near-zero-overlap queries. The real
+grounding enforcement is the system prompt instructing the model to answer only from the retrieved
+excerpts and say explicitly when they don't support an answer — the post-generation checks below catch
+the rest. Switching `RAG_EMBEDDER` to `onnx-minilm` or `ollama` (real semantic embeddings, rebuild the
+index after switching) tightens this threshold meaningfully and is the recommended change before any
+production use; it wasn't made for this submission to avoid re-indexing and re-validating the full
+corpus this close to the deadline.
+
+A consequence: a plain conversational message (e.g. "hi, what can you do?") can still retrieve a
+passing-similarity chunk from an unrelated episode, triggering a full generation attempt before the
+model itself recognizes there's no relevant evidence — measured at 40–180s on this CPU, occasionally
+hitting the 180s timeout. Two mitigations: `_is_conversational_opener()` in `agent.py` recognizes
+obvious greetings/meta questions and skips retrieval entirely (~10s instead of 60+), and a timeout
+during a grounded attempt now retries once with a small, context-free general-knowledge prompt instead
+of surfacing a raw connection error — see the `ALLOW_GENERAL_KNOWLEDGE` paragraph below.
+
+The submitted default `ALLOW_GENERAL_KNOWLEDGE=false` refuses low-similarity/empty retrieval, self-recognized-refusal, and generation-timeout outcomes without answering from general knowledge, for every skill. Optional general-knowledge replies can be enabled explicitly for plain
 Q&A only; content-generation skills always require transcript evidence. Optional general replies use
 a separate system prompt, carry no citations, are marked `grounded: false`, and display an unsourced
 warning. They are not part of the assignment demo configuration. Prompts for grounded answers require excerpt-only facts and valid
